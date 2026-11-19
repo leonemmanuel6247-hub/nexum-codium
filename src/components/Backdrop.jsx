@@ -14,7 +14,7 @@ export default function Backdrop({ theme, reducedMotion }) {
             src="/ascii/forrest.json"
             label="forrest"
             fps={18}
-            charWidth="clamp(3px, 0.38vw, 8px)"
+            charWidth="clamp(4px, 0.5vw, 11px)"
             active={!reducedMotion}
             chromeless
           />
@@ -24,7 +24,7 @@ export default function Backdrop({ theme, reducedMotion }) {
             src="/ascii/hooded.json"
             label="hooded"
             fps={1}
-            charWidth="clamp(2.5px, 0.3vw, 6px)"
+            charWidth="clamp(3.4px, 0.42vw, 9px)"
             active={!reducedMotion}
             chromeless
           />

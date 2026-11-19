@@ -106,9 +106,9 @@ body::before {
   pointer-events: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: clamp(20px, 4vw, 80px);
-  padding: 2vh 3vw;
+  justify-content: center;
+  gap: clamp(-120px, -6vw, -30px);
+  padding: 2vh 0;
   opacity: 0.9;
   overflow: hidden;
 }
@@ -134,7 +134,6 @@ body::before {
   text-shadow: 0 0 4px rgba(0, 240, 255, 0.95), 0 0 14px rgba(0, 240, 255, 0.55);
 }
 .ascii-figure-right {
-  margin-left: auto;
 }
 .ascii-figure-right .ascii-chromeless {
   color: #60A5FA;
