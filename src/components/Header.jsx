@@ -1,8 +1,7 @@
 import Logo from './Logo.jsx'
-import Icon from './Icon.jsx'
 import { NAV_LINKS } from '../data.js'
 
-export default function Header({ theme, onToggleTheme }) {
+export default function Header() {
   return (
     <header className="site-header">
       <div className="wrap">
@@ -21,14 +20,6 @@ export default function Header({ theme, onToggleTheme }) {
             ))}
           </ul>
           <div className="nav-actions">
-            <button
-              className="theme-toggle"
-              onClick={onToggleTheme}
-              aria-label="Basculer le thème clair/sombre"
-              title="Changer de thème"
-            >
-              <Icon name={theme === 'dark' ? 'moon' : 'sun'} />
-            </button>
             <a href="#console" className="btn btn-ghost hide-sm">
               Connexion Console
             </a>

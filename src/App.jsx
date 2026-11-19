@@ -11,13 +11,13 @@ import { IntegrationsTrust, FAQ, CTA } from './components/Trust.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
-  const { theme, toggleTheme } = useTheme()
+  const { theme } = useTheme()
   const reducedMotion = useReducedMotion()
 
   return (
     <>
       <Backdrop theme={theme} reducedMotion={reducedMotion} />
-      <Header theme={theme} onToggleTheme={toggleTheme} />
+      <Header />
       <main id="top">
         <Hero />
         <SOC />
