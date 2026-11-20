@@ -149,6 +149,9 @@ export default function SOC() {
               STATUT : BOUCLIER ACTIF
             </span>
             <span className="soc-sync">Dernière synchronisation : {sync}</span>
+            <span className="demo-badge" title="Flux de démonstration">
+              Données de démonstration (simulées)
+            </span>
           </div>
           <div className="soc-metrics">
             <div className="metric">
@@ -180,6 +183,10 @@ export default function SOC() {
           <div className="tab-panel" role="tabpanel" key={tab}>
             {panel}
           </div>
+          <p className="soc-disclaimer">
+            Les journaux, adresses IP et métriques affichés sont générés à titre d'illustration et ne
+            correspondent à aucun trafic réel.
+          </p>
         </div>
       </div>
     </section>
